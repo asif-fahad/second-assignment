@@ -4,10 +4,15 @@
 }
 
 /* header and navigation styles */
+header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     padding: 50px;
+    background: white;
 }
 
 .nav-title {
@@ -88,22 +93,131 @@ section {
 .team {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
 }
 
 .quick-list {
-    position: relative;
-    width: 537px;
-    height: 304px;
-    left: 1082px;
-    top: 2000px;
+    margin-top: 250px;
     align-items: center;
     justify-content: center;
 }
 
+.quick-list-future .quick-list .section-title {
+    font-size: 2em;
+}
+
+.btn-2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 20px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    justify-content: center;
+    /* position: relative;
+    left: 500px;
+    margin: 50px; */
+}
+
+/* features love section */
 .features-love {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.features-love .section-title {
+    font-weight: 900;
+    border-left: 5px solid #FD6E0A;
+    font-size: xx-large;
+    padding-left: 20px;
+}
+
+.features-love .features-love-divs {
+    position: relative;
+    left: 20px;
+}
+
+.features-love .features-love-img {
+    width: 800px;
+    height: 770px;
+    position: relative;
+    left: 100px;
+}
+
+.features-love .btn-3 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 30px;
+    padding-bottom: 30px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    justify-content: center;
+    position: relative;
+    right: 500px;
+    top: 650px;
+    margin: 50px;
+}
+
+/* some facts */
+.some-facts .some-facts-divs {
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 50px 80px;
+    border: 1px solid red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.skill:hover {
+    transform: rotate(30deg);
+}
+
+.some-facts .section-title {
+    font-weight: 900;
+    font-size: 2em;
+}
+
+/* sponsor */
+
+.sponsor {
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+}
+
+.sponsor .section-title {
+    font-size: 2em;
+}
+
+.sponsor .sponsor-img {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  margin-top: 50px;
+}
+/* about me section */
+.about {
     display: flex;
 }
 
-.about {
-    display: flex;
+.section-desription {
+    color: gray;
 }
