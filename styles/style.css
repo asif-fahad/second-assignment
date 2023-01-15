@@ -294,7 +294,7 @@ section {
     }
 
     .banner-description {
-        
+        padding: 20px;
     }
 
     .banner img {
@@ -305,7 +305,8 @@ section {
         max-width: 100%;
         position: relative;
         right: 500px;
-        left: 0;
+        left: 50px;
+        
     }
 .quick-list-future {
     flex-direction: column;
@@ -375,5 +376,4 @@ section {
     max-width: 260px;
     position: relative;
     left: 0%;
-    
 }
