@@ -144,6 +144,7 @@ section {
 .features-love .section-description {
     color: #727272;
 }
+
 .features-love .features-love-divs {
     position: relative;
     left: 20px;
@@ -227,7 +228,7 @@ section {
 }
 
 .sponsor .section-description {
-   color: #727272;
+    color: #727272;
 }
 
 .sponsor .sponsor-img {
@@ -273,10 +274,10 @@ section {
     position: relative;
     left: 350px;
     text-align: center;
-    
+
 }
 
-@media screen and (max-width: 688px ) {
+@media screen and (max-width: 688px) {
     nav {
         flex-direction: column;
         display: grid;
@@ -288,7 +289,8 @@ section {
         align-items: flex-start;
         flex-direction: column;
     }
-    }
+
+
     .banner {
         max-width: 100%;
     }
@@ -306,74 +308,77 @@ section {
         position: relative;
         right: 500px;
         left: 50px;
-        
+
     }
-.quick-list-future {
-    flex-direction: column;
-    
-    
-}
 
-.quick-list-future .team {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
+    .quick-list-future {
+        flex-direction: column;
 
-.quick-list-future .quick-list {
-    margin-top: 0;
-}
+
+    }
+
+    .quick-list-future .team {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .quick-list-future .quick-list {
+        margin-top: 0;
+    }
+
     /* features love */
-.features-love {
-    flex-direction: column;
-    display: block;
-    
-    grid-template-columns: repeat(1, 1fr);
-    position: relative;
-    right: 0;
-    left: 0;
-}
+    .features-love {
+        flex-direction: column;
+        display: block;
 
-.features-love .features-love-img  {
-    max-width: 100%;
-    position: relative;
-    left: 0;
-}
+        grid-template-columns: repeat(1, 1fr);
+        position: relative;
+        right: 0;
+        left: 0;
+    }
 
-.features-love .btn-3 {
-    position: relative;
-    right: 0;
-    top: 0;
-}
+    .features-love .features-love-img {
+        max-width: 100%;
+        position: relative;
+        left: 0;
+    }
 
-.features-love .features-love-divs {
-    position: relative;
-    left: 0;
-}
+    .features-love .btn-3 {
+        position: relative;
+        right: 0;
+        top: 0;
+    }
 
-/* some facets */
-.some-facts .some-facts-divs {
-    flex-direction: column;
-}
+    .features-love .features-love-divs {
+        position: relative;
+        left: 0;
+    }
 
-/* sponsor */
-.sponsor .sponsor-img {
-    flex-direction: column;
-    right: 0;
-}
+    /* some facets */
+    .some-facts .some-facts-divs {
+        flex-direction: column;
+    }
 
-/* about */
-.about {
-    flex-direction: column;
-}
+    /* sponsor */
+    .sponsor .sponsor-img {
+        flex-direction: column;
+        right: 0;
+    }
 
-.about .about-img {
-    max-width: 100%;
-}
+    /* about */
+    .about {
+        flex-direction: column;
+    }
 
-.footer-copyright {
-    max-width: 260px;
-    position: relative;
-    left: 0%;
+    .about .about-img {
+        max-width: 100%;
+    }
+
+    .footer-copyright {
+        max-width: 260px;
+        position: relative;
+        left: 0%;
+    }
 }
