@@ -12,7 +12,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 50px;
-    background: white;
+    
 }
 
 .nav-title {
@@ -272,7 +272,7 @@ section {
     padding: 50px;
     width: 1000px;
     position: relative;
-    left: 350px;
+    left: 300px;
     text-align: center;
 
 }
@@ -349,6 +349,7 @@ section {
         position: relative;
         right: 0;
         top: 0;
+        margin: 0 100px;
     }
 
     .features-love .features-love-divs {
