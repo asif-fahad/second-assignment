@@ -275,3 +275,105 @@ section {
     text-align: center;
     
 }
+
+@media screen and (max-width: 688px ) {
+    nav {
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    nav ul {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    }
+    .banner {
+        max-width: 100%;
+    }
+
+    .banner-description {
+        
+    }
+
+    .banner img {
+        max-width: 100%;
+    }
+
+    .banner .btn-1 {
+        max-width: 100%;
+        position: relative;
+        right: 500px;
+        left: 0;
+    }
+.quick-list-future {
+    flex-direction: column;
+    
+    
+}
+
+.quick-list-future .team {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.quick-list-future .quick-list {
+    margin-top: 0;
+}
+    /* features love */
+.features-love {
+    flex-direction: column;
+    display: block;
+    
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+    right: 0;
+    left: 0;
+}
+
+.features-love .features-love-img  {
+    max-width: 100%;
+    position: relative;
+    left: 0;
+}
+
+.features-love .btn-3 {
+    position: relative;
+    right: 0;
+    top: 0;
+}
+
+.features-love .features-love-divs {
+    position: relative;
+    left: 0;
+}
+
+/* some facets */
+.some-facts .some-facts-divs {
+    flex-direction: column;
+}
+
+/* sponsor */
+.sponsor .sponsor-img {
+    flex-direction: column;
+    right: 0;
+}
+
+/* about */
+.about {
+    flex-direction: column;
+}
+
+.about .about-img {
+    max-width: 100%;
+}
+
+.footer-copyright {
+    max-width: 260px;
+    position: relative;
+    left: 0%;
+    
+}
